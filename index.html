@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Girl To-Do List</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body class="theme-light-pink">
+  <div class="container">
+    <h1>🌸 My To-Do List 🌸</h1>
+    <p>Stay organized and fabulous!</p>
+    <div class="theme-selector">
+      <button onclick="changeTheme('theme-light-pink')">Light Pink</button>
+      <button onclick="changeTheme('theme-pastel-purple')">Pastel Purple</button>
+      <button onclick="changeTheme('theme-soft-blue')">Soft Blue</button>
+    </div>
+    <div class="input-section">
+      <input type="text" id="taskInput" placeholder="Add a new task...">
+      <button id="addTaskBtn">Add Task</button>
+    </div>
+    <ul id="taskList"></ul>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
